@@ -1,9 +1,9 @@
 #!/bin/bash
 
 mv ~/.electron/thekey.key ~/.proton&&
-mv ~/.neutron/stjernestrom ~/.proton&&
+mv ~/.neutron/textfile ~/.proton&&
 python3 ./voldemort.py&&
 mv ~/.proton/thekey.key ~/.electron&&
-mv ~/.proton/stjernestrom ~/.neutron
+mv ~/.proton/textfile ~/.neutron
 
 
