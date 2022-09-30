@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mv ~/.electron/thekey.key ~/.proton/final&&
+mv ~/.neutron/stjernestrom ~/.proton/final&&
+python3 ../voldemort.py&&
+mv ~/.proton/final/thekey.key ~/.electron&&
+mv ~/.proton/final/stjernestrom ~/.neutron
+
+
